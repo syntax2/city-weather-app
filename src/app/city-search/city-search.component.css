@@ -1,0 +1,40 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .mat-form-field {
+    width: 300px;
+  }
+  
+  ::ng-deep .mat-form-field-wrapper {
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 5px 15px !important;
+    transition: all 0.3s ease;
+  }
+  
+  ::ng-deep .mat-form-field-wrapper:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ::ng-deep .mat-form-field-outline {
+    display: none;
+  }
+  
+  ::ng-deep .mat-form-field-infix {
+    padding: 0.5em 0 !important;
+  }
+  
+  ::ng-deep .mat-form-field-label-wrapper {
+    top: -1.5em;
+  }
+  
+  .search-icon {
+    color: #666;
+  }
+  
+  input.mat-input-element {
+    margin-left: 10px;
+  }
